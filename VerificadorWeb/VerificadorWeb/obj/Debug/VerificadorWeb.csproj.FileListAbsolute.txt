@@ -1,0 +1,10 @@
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\bin\Debug\VerificadorWeb.exe.config
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\bin\Debug\VerificadorWeb.exe
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\bin\Debug\VerificadorWeb.pdb
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\obj\Debug\VerificadorWeb.csprojAssemblyReference.cache
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\obj\Debug\VerificadorWeb.Form1.resources
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\obj\Debug\VerificadorWeb.Properties.Resources.resources
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\obj\Debug\VerificadorWeb.csproj.GenerateResource.cache
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\obj\Debug\VerificadorWeb.csproj.CoreCompileInputs.cache
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\obj\Debug\VerificadorWeb.exe
+d:\Users\ELG\source\repos\VerificadorWeb\VerificadorWeb\obj\Debug\VerificadorWeb.pdb
