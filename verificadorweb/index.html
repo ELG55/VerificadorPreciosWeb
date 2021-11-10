@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador Web - Lectura</title>
+    <style>
+        div {
+            height: 200px;
+            position: relative;
+        }
+
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
+    <script type="text/javascript">
+
+        if (window.addEventListener) {
+            var codigo = "";
+            window.addEventListener("keydown", function (e) {
+                if (e.keyCode == 13) {
+                    window.location = "http://localhost:80/verificadorweb/cargar.php?codigo=" + codigo;
+                    codigo = "";
+                }
+				else if (e.keyCode == 8) {
+					if (codigo.length > 0) {
+						codigo = codigo.substring(0, codigo.length - 1);
+					}
+				}
+				else if (codigo.length < 5) {
+					codigo += String.fromCharCode(e.keyCode);
+				}
+            }, true);
+        }
+    </script>
+</head>
+
+<body>
+	<body style="background-color:rgb(213,232,212);">
+	<div>
+        <img src="img/logo.png">
+    </div>
+    <div>
+        <img src="img/scan.png">
+    </div>
+    <p style="text-align: center; font-size: 36px;"><b>Ingresar código</b></p>
+</body>
+
+</html>
